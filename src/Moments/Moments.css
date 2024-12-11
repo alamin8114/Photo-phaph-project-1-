@@ -1,0 +1,25 @@
+.moments{
+    @apply mt-[150px]
+}
+.moments-row{
+    @apply flex items-center gap-[100px]
+}
+.moments-img img{
+    @apply w-[670px] h-[500px]
+}
+.moments-text h1{
+    @apply text-[64px] font-Cormorant-Garamond text-[0B0109] font-medium w-[371px] leading-[54px]
+}
+.moments-button {
+    @apply flex mt-[64px]
+    
+}
+.moments-button a{
+    @apply flex items-center gap-[12px] text-[#EF0101] border-b-2 border-[#EF0101] text-[20px] font-semibold
+}
+.address p{
+    @apply text-[18px] font-Inter font-semibold text-[#0B0109] underline cursor-pointer
+}
+.moments-address{
+    @apply flex gap-[274px]
+}

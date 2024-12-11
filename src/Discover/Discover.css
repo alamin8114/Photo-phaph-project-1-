@@ -1,0 +1,49 @@
+.discover-row{
+    @apply flex flex-col justify-center items-center
+}
+.discover-head h1{
+    @apply  text-[80px] font-Cormorant-Garamond font-medium w-[500px]
+}
+.discover-head{
+    @apply flex justify-center items-center text-center mb-[48px]
+}
+.discover-head h1 span{
+    @apply underline
+}
+.discover-nav{
+    @apply flex justify-center items-center mb-[120px]
+}
+.discover-nav ul{
+    @apply flex gap-[38px] 
+}
+.discover-nav ul li a{
+    @apply text-[18px] font-normal font-Inter text-[#0B0109]
+}
+.discover-card{
+    @apply flex gap-[35px] mb-[45px]
+}
+.discover-card .single-card {
+    @apply relative
+}
+.discover-card .single-card {
+    @apply hover:-translate-y-20 transition-all duration-[.6s] 
+}
+.single-card img{
+    @apply w-[316px]
+}
+.single-card h1{
+    @apply text-[20px] font-Oswald font-medium absolute bottom-[15px] right-[-25px] 
+}
+.card-2  {
+    @apply top-[0px] left-[-20px] absolute
+}
+.card-4{
+    @apply top-[0px] left-[-20px] absolute
+}
+.discover-button {
+    @apply flex justify-center items-center
+    mb-[120px]
+}
+.discover-button a{
+    @apply flex items-center gap-[12px] text-[#EF0101] border-b-2 border-[#EF0101] text-[20px] font-semibold
+}

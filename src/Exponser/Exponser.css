@@ -1,0 +1,6 @@
+.single-box{
+    @apply w-[270px] h-[100px] text-center flex justify-center items-center 
+}
+.exponsoer-box{
+    @apply flex gap-[30px] flex-wrap justify-center items-center
+}

@@ -1,0 +1,36 @@
+.Plan{
+    @apply mt-[150px] 
+}
+.Plan-head{
+    @apply flex justify-center
+}
+.Plan-head h1{
+    @apply  text-[80px] font-medium font-Cormorant-Garamond w-[400px]
+}
+.plan-card{
+    @apply mt-[68px] relative 
+}
+.single-plan-card{
+    @apply w-[445px]
+}
+.single-plan-card .head {
+    @apply flex justify-between items-center
+}
+.single-plan-card .head h1{
+    @apply text-[30px] font-Oswald font-medium text-[#0B0109]
+}
+.single-plan-card .head h4{
+    @apply text-[40px] font-Cormorant-Garamond font-bold text-[#EF0101]
+}
+.single-plan-card p{
+    @apply text-[18px] text-[0B0109] font-normal font-DM-Sans mt-[20px]
+}
+.plan-button{
+    @apply flex items-center mt-[24px]
+}
+.plan-button a{
+    @apply flex items-center gap-[12px] text-[#EF0101]  text-[20px] font-semibold
+}
+.line{
+    @apply h-[510px] w-[2px] bg-[#817d7d] absolute top-[15px] left-[50%]
+}

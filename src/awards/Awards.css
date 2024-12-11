@@ -1,0 +1,18 @@
+.awards-text h1{
+    @apply text-[80px] mt-[-35px] font-medium font-Corinthia w-[314px]
+}
+.awards{
+    @apply mb-[150px]
+}
+.awards-row{
+    @apply flex gap-[60px]
+}
+.awards-img-text {
+    @apply flex items-center gap-[60px]
+}
+.awards-row .img img{
+    @apply w-[570px]
+}
+.awards-list ul li a{
+    @apply text-[20px] font-normal font-DM-Sans text-[#0B0109] hover:text-[#EF0101]
+}

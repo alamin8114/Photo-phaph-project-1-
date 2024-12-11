@@ -1,0 +1,46 @@
+.capture-row{
+    @apply flex justify-center flex-col items-center
+}
+.capture-text h1{
+    @apply text-[80px] font-medium font-Cormorant-Garamond text-[#0B0109] w-[528px]
+}
+.capture-text P{
+    @apply text-[24px] font-semibold font-Oswald text-right pr-[100px]
+    mb-[72px]
+}
+.capture-text .img img{
+    @apply w-[370px]
+}
+.capture-img{
+    @apply relative
+}
+.capture-img img{
+    @apply w-[770px]
+
+}
+.capture-text-box{
+    @apply flex gap-[38px]
+}
+.capture-img .capture-logo{
+    @apply w-[162px] absolute top-[290px] left-[-80px] hover:rotate-[360deg] transition-all duration-[1s]
+}
+/* comment part here */
+.capture-comment{
+    @apply mt-[80px] flex justify-center
+}
+.comment {
+    @apply flex justify-between 
+}
+.comment-2{
+    @apply text-[20px] font-normal font-DM-Sans text-[#0B0109]
+    flex gap-[70px]
+}
+.comment h1{
+    @apply text-[24px] flex gap-[16px] pr-3
+}
+.capture-button {
+    @apply flex mt-[40px] mb-[150px]
+}
+.capture-button a{
+    @apply flex items-center gap-[12px] text-[#EF0101] border-b-2 border-[#EF0101]
+}

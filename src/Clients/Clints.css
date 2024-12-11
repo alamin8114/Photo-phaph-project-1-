@@ -1,0 +1,33 @@
+.clients-head{
+    @apply flex justify-around items-center
+}
+.clients-head h1{
+    @apply text-[80px] text-[#0B0109] font-medium
+    font-Cormorant-Garamond w-[500px]
+}
+.clients-head h1 span{
+    @apply italic underline font-normal
+}
+.capture-button {
+    @apply flex mt-[40px] mb-[150px]
+}
+.capture-button a{
+    @apply flex items-center gap-[12px] text-[#EF0101] border-b-2 border-[#EF0101]
+}
+/* clients part here */
+.slider-img img{
+    @apply w-[370px]
+}
+.slider-text p{
+    @apply text-[24px] font-normal font-DM-Sans w-[500px] text-[0B0109] opacity-[.70]
+}
+.slider-text p span{
+    @apply text-[24px] font-medium text-black
+
+}  
+.slider-row{
+    @apply flex gap-[100px] justify-center items-center mt-[48px]
+} 
+.slider-text h1{
+    @apply text-[24px] font-Oswald font-semibold mt-[40px]
+}

@@ -1,0 +1,21 @@
+.navbar{
+    @apply py-[30px] 
+}
+.alamin-mein-menu{
+    @apply flex justify-between items-center
+}
+.menu-bar{
+    @apply flex gap-[130px] items-center
+}
+.logo-img{
+    @apply w-[96px]
+}
+.nav-menu ul {
+    @apply flex gap-[30px]
+}
+.nav-menu ul li a{
+    @apply text-[16px] text-[#FFFFFF] outline-[1px] outline-[black] font-normal font-Inter
+}
+.bar-icon{
+    @apply text-[32px] text-white
+}

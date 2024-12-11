@@ -1,0 +1,47 @@
+.alamin-banner{
+    @apply bg-[url("images/Banner-img.png")] h-auto pb-[100px] w-full
+}
+/* .banner{
+    @apply  
+} */
+.banner-text h1{
+    @apply text-[96px] w-[524px] font-medium font-Cormorant-Garamond
+}
+.banner-text h1 span{
+    @apply border-b-8
+}
+.main-banner{
+    @apply flex justify-end   gap-[245px]
+}
+.banner-text p{
+    @apply text-[18px] text-[#FFFFFF] w-[450px] font-DM-Sans
+}
+.webpage ul{
+    @apply flex gap-[120px] pt-[182px] justify-center text-white flex-col items-end
+}
+.webpage ul li{
+    @apply rotate-[-90deg] 
+}
+.webpage ul li a{
+    @apply text-[18px] font-medium font-Cormorant-Garamond
+}
+.baaner-video img{
+    @apply w-[470px] h-[300px] bg-green-500
+}
+.video-text h1{
+    @apply text-[30px] font-semibold font-DM-Sans text-white w-[172px]
+}
+.video-text p{
+    @apply text-[16px] font-Inter text-[#fff]
+    w-[201px]
+}
+.banner-video-part{
+    @apply flex gap-[500px] relative
+}
+.video-logo{
+    @apply absolute    top-[70px]
+    left-[624px]
+}
+.video-logo img{
+    @apply w-[160px]  hover:rotate-[360deg] transition-all duration-[1s]
+}

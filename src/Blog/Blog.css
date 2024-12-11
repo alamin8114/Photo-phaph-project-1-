@@ -1,0 +1,34 @@
+.blog-head{
+    @apply flex gap-[659px] items-center
+}
+.blog-main{
+    @apply flex justify-center items-center mt-[150px]
+}
+.blog-head h1{
+    @apply text-[80px] font-Cormorant-Garamond text-[0B0109]
+}
+.blog-button {
+    @apply flex 
+    
+}
+.blog-button a{
+    @apply flex items-center gap-[12px] text-[#EF0101] border-b-2 border-[#EF0101] text-[20px] font-semibold
+}
+.blog-row{
+    @apply mt-[48px] flex gap-[130px] justify-center items-center
+}
+.single-card-blog img{
+    @apply w-[470px] h-[250px]
+}
+.date {
+    @apply flex gap-[24px] mt-[24px]
+}
+.date p{
+    @apply flex items-center gap-[10px]
+}
+.single-card-blog h3{
+    @apply text-[30px] font-Cormorant-Garamond font-bold text-[0B0109] mt-[8px] w-[381px]
+}
+.single-card-blog .col-2-img{
+    @apply w-[570px] h-[480px]
+}

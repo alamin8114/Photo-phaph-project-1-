@@ -1,0 +1,27 @@
+.footer{
+    @apply bg-[#000000] mt-[100px] pt-[116px] pb-[120px]
+}
+.footer-row{
+    @apply flex justify-center items-center flex-col
+}
+.footer-row .logo img{
+    @apply w-[128px]
+}
+.footer-row p{
+    @apply text-[16px] font-Inter font-normal text-[#FFFFFF] mt-[15px]
+}
+.footer-line{
+    @apply w-[970px] h-[2px] bg-white mt-[48px]
+}
+.footer-menu{
+    @apply mt-[36px]
+}
+.footer-line-2{
+    @apply w-[770px] h-[2px] bg-white mt-[36px]
+}
+.webpage-footer{
+    @apply text-white mt-[36px]
+}
+.webpage-footer ul{
+    @apply flex gap-[80px]
+}
